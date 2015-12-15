@@ -74,7 +74,7 @@ function setupPages(){
 	
 $('#page3testAjaxButton').bind("click", function () {
 			//window.alert("page 3 Button Clicked!");
-    $('#page3Text').attr('innerHTML','<h4> to ask questions and hold eye contact ;  </h4>');
+    $('#page3Text').attr('innerHTML','<h4> Kilkenny ;  </h4>');
 });
 
 $('#page3ListButton').bind("click", function () {
@@ -112,7 +112,7 @@ $('#page5AJAXButton').bind("click", function(){
 	//http://www.jquery4u.com/demos/ajax/
 	$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
 {
-  tags:"best resume",
+  tags:"Hurling",
   tagmode: "any",
   format: "json"
 },
