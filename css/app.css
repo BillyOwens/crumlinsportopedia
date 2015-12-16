@@ -1,0 +1,465 @@
+.wrapper { 	width: 90%; 
+			height: auto; 
+			background-color: #565454;
+			margin-left: 5%;
+			margin-right: 5%;
+}
+
+
+header, nav{	color: #ffffff; text-align:  center;  width: 100%; 
+		margin-right: 0%;
+		margin-left: 0%;
+		font-size: 1.5em; 
+		font-family: arial, verdana, helvetica, "sans-serif"; 
+		font-style: bold;
+		letter-spacing: .5em;
+		padding: 1%;
+		margin-bottom: 1%;
+		margin-top: 20%;
+		background-color: #4C4A4A;
+		border-top-right-radius: 15px; border-top-left-radius: 15px;
+		border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;
+		
+	}
+	
+.categories {
+				margin-top: 2%;
+				box-sizing: border-box;
+}
+
+section {	box-sizing: border-box;
+		float: left;
+		width: 35%;
+		color: #ffffff; text-align:  center;   
+		margin-right: 0%;
+		margin-left: 0%;
+		font-size: 1.5em; 
+		font-family: arial, verdana, helvetica, "sans-serif"; 
+		font-style: bold;
+		letter-spacing: .5em;
+		padding: 1%;
+		margin-bottom: 1%;
+		margin-top: 1%;
+		background-color: #4C4A4A;
+}
+
+#cup {
+		float: right;
+		
+}
+	
+a:link, a:visited, a:hover  {text-decoration: none;
+							color:#FFFFFF
+
+}
+	
+article {	width: 100%;
+		text-align: center;
+		margin-top: -.5%;
+		font-family: arial, verdana, helvetica, "sans-serif"; 
+}
+
+div {
+	width: 100%;
+	clear: both;
+}
+
+
+#year, #champs, #second, #topscorer {
+		text-align: center;
+		margin-top: 1%;
+		font-family: arial, verdana, helvetica, "sans-serif";
+		font-size: 1.5em;
+		font-style: bold;
+		box-sizing: border-box;
+		border: 2px solid white;
+		padding: 0.3em;
+		float: left;
+		margin: 0;
+		background-color:#BCDBE0;
+}
+
+#year {
+		width: 7%;
+		margin-left: 16.5%;
+}
+
+#year1, #champs1, #second1, #topscorer1 {
+		text-align: left;
+		margin-top: 1%;
+		font-family: arial, verdana, helvetica, "sans-serif";
+		font-size: 1.2em;
+		box-sizing: border-box;
+		border: 2px solid white;
+		padding: 0.3em;
+		float: left;
+		height: 1.7em;
+		margin: 0;
+		background-color:#BCDBE0;
+}
+
+#champs1, #second1,#champs, #second {
+					width: 18%;
+}
+#topscorer,#topscorer1 {
+			width: 24%;
+}
+
+#year1 {
+		width: 7%;
+		margin-left: 16.5%;
+}
+
+/********* media queries start here ************/
+@media (max-width: 1160px) {
+	section {	box-sizing: border-box;
+		float: left;
+		width: 35%;
+		color: #ffffff; text-align:  center;   
+		margin-right: 0%;
+		margin-left: 0%;
+		font-size: 1.1em; 
+		font-family: arial, verdana, helvetica, "sans-serif"; 
+		font-style: bold;
+		letter-spacing: .3em;
+		padding: 1%;
+		margin-bottom: 1%;
+		margin-top: 3%;
+		background-color: #4C4A4A;
+		}
+}
+
+@media (max-width: 691px) {
+	section {	box-sizing: border-box;
+		float: left;
+		width: 35%;
+		color: #ffffff; text-align:  center;   
+		margin-right: 0%;
+		margin-left: 0%;
+		font-size: 0.9em; 
+		font-family: arial, verdana, helvetica, "sans-serif"; 
+		font-style: bold;
+		letter-spacing: .01em;
+		padding: 1%;
+		margin-bottom: 1%;
+		margin-top: 3%;
+		background-color: #4C4A4A;
+		}
+}
+@media (max-width: 747px) {
+	header, nav{ width: 100%;
+				margin: 0;
+				margin-top: 20%;
+				letter-spacing: .3em;
+				font-size: 1.1em;
+			}
+	
+	article {
+			width: 100%;
+			margin: 0;
+			text-align: center;
+		}
+	}
+	@media (max-width: 600px) {
+	header, nav{ width: 100%;
+				margin: 0;
+				margin-top: 20%;
+				letter-spacing: .3em;
+				font-size: 1em;
+			}
+	
+	article {
+			width: 100%;
+			margin: 0;
+			text-align: center;
+		}
+	}
+	
+@media (max-width: 436px) {
+	header, nav{ width: 100%;
+				margin: 0;
+				margin-top: 20%;
+				letter-spacing: .2em;
+				font-size: 0.8em;
+			}
+	
+	article {
+			width: 100%;
+			margin: 0;
+			text-align: center;
+		}
+	}
+	/** BEGIN - media queries for football **/
+	
+@media (max-width: 1493px) {	
+	div {
+		width: 100%;
+		clear: both;
+	}
+
+
+	#year, #champs, #second, #topscorer {
+		text-align: center;
+		margin-top: 1%;
+		font-family: arial, verdana, helvetica, "sans-serif";
+		font-size: 1.2em;
+		font-style: bold;
+		box-sizing: border-box;
+		border: 2px solid white;
+		padding: 0.3em;
+		float: left;
+		margin: 0;
+		background-color:#BCDBE0;
+	}
+
+	#year {
+		width: 7%;
+		margin-left: 16.5%;
+	}
+
+	#year1, #champs1, #second1, #topscorer1 {
+		text-align: left;
+		margin-top: 1%;
+		font-family: arial, verdana, helvetica, "sans-serif";
+		font-size: 1em;
+		box-sizing: border-box;
+		border: 2px solid white;
+		padding: 0.3em;
+		float: left;
+		height: 1.7em;
+		margin: 0;
+		background-color:#BCDBE0;
+	}
+
+	#champs1, #second1,#champs, #second {
+											width: 18%;
+	}
+	#topscorer,#topscorer1 {
+							width: 24%;
+	}
+
+	#year1 {
+			width: 7%;
+			margin-left: 16.5%;
+	}
+}
+
+	
+@media (max-width: 1225px) {	
+	div {
+		width: 100%;
+		clear: both;
+	}
+
+
+	#year, #champs, #second, #topscorer {
+		text-align: center;
+		margin-top: 1%;
+		font-family: arial, verdana, helvetica, "sans-serif";
+		font-size: 1em;
+		font-style: bold;
+		box-sizing: border-box;
+		border: 2px solid white;
+		padding: 0.15em;
+		float: left;
+		margin: 0;
+		background-color:#BCDBE0;
+	}
+
+	#year {
+		width: 7%;
+		margin-left: 16.5%;
+	}
+
+	#year1, #champs1, #second1, #topscorer1 {
+		text-align: left;
+		margin-top: 1%;
+		font-family: arial, verdana, helvetica, "sans-serif";
+		font-size: 0.8em;
+		box-sizing: border-box;
+		border: 2px solid white;
+		padding: 0.15em;
+		float: left;
+		height: 1.7em;
+		margin: 0;
+		background-color:#BCDBE0;
+	}
+
+	#champs1, #second1,#champs, #second {
+											width: 18%;
+	}
+	#topscorer,#topscorer1 {
+							width: 24%;
+	}
+
+	#year1 {
+			width: 7%;
+			margin-left: 16.5%;
+	}
+}
+
+@media (max-width: 1015px) {	
+	div {
+		width: 100%;
+		clear: both;
+	}
+
+
+	#year, #champs, #second, #topscorer {
+		text-align: center;
+		margin-top: 1%;
+		font-family: arial, verdana, helvetica, "sans-serif";
+		font-size: 1em;
+		font-style: bold;
+		box-sizing: border-box;
+		border: 2px solid white;
+		padding: 0.15em;
+		float: left;
+		margin: 0;
+		background-color:#BCDBE0;
+	}
+
+	#year {
+		width: 7%;
+		margin-left: 16.5%;
+	}
+
+	#year1, #champs1, #second1, #topscorer1 {
+		text-align: left;
+		margin-top: 1%;
+		font-family: arial, verdana, helvetica, "sans-serif";
+		font-size: 0.8em;
+		box-sizing: border-box;
+		border: 2px solid white;
+		padding: 0.15em;
+		float: left;
+		height: 1.7em;
+		margin: 0;
+		background-color:#BCDBE0;
+	}
+
+	#champs1, #second1,#champs, #second {
+											width: 16%;
+	}
+	#topscorer,#topscorer1 {
+							width: 28%;
+	}
+
+	#year1 {
+			width: 7%;
+			margin-left: 16.5%;
+	}
+}
+
+@media (max-width: 860px) {	
+	div {
+		width: 100%;
+		clear: both;
+	}
+
+
+	#year, #champs, #second, #topscorer {
+		text-align: center;
+		margin-top: 1%;
+		font-family: arial, verdana, helvetica, "sans-serif";
+		font-size: 1em;
+		font-style: bold;
+		box-sizing: border-box;
+		border: 2px solid white;
+		padding: 0.15em;
+		float: left;
+		margin: 0;
+		background-color:#BCDBE0;
+	}
+
+	#year {
+		width: 10%;
+		
+	}
+
+	#year1, #champs1, #second1, #topscorer1 {
+		text-align: left;
+		margin-top: 1%;
+		font-family: arial, verdana, helvetica, "sans-serif";
+		font-size: 0.8em;
+		box-sizing: border-box;
+		border: 2px solid white;
+		padding: 0.15em;
+		float: left;
+		height: 1.7em;
+		margin: 0;
+		background-color:#BCDBE0;
+	}
+
+	#champs1, #second1,#champs, #second {
+											width: 25%;
+	}
+	#topscorer,#topscorer1 {
+							width: 40%;
+	}
+
+	#year1 {
+			width: 10%;
+		
+	}
+}
+
+@media (max-width: 610px) {	
+	div {
+		width: 100%;
+		clear: both;
+	}
+
+
+	#year, #champs, #second, #topscorer {
+		text-align: center;
+		margin-top: 1%;
+		font-family: arial, verdana, helvetica, "sans-serif";
+		font-size: 0.8em;
+		font-style: bold;
+		box-sizing: border-box;
+		border: 1px solid white;
+		padding: 0.1em;
+		float: left;
+		margin: 0;
+		background-color:#BCDBE0;
+	}
+
+	#year {
+		width: 10%;
+		
+	}
+
+	#year1, #champs1, #second1, #topscorer1 {
+		text-align: left;
+		margin-top: 1%;
+		font-family: arial, verdana, helvetica, "sans-serif";
+		font-size: 0.6em;
+		box-sizing: border-box;
+		border: 1px solid white;
+		padding: 0.1em;
+		float: left;
+		height: 1.7em;
+		margin: 0;
+		background-color:#BCDBE0;
+	}
+
+	#champs1, #second1,#champs, #second {
+											width: 25%;
+	}
+	#topscorer,#topscorer1 {
+							width: 40%;
+	}
+
+	#year1 {
+			width: 10%;
+		
+	}
+	
+	.wrapper { 	width: 95%; 
+			height: auto; 
+			background-color: #565454;
+			margin-left: 2.5%;
+			margin-right: 2.5%;
+		}
+}
